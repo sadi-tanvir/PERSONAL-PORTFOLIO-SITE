@@ -1,23 +1,48 @@
 import Link from 'next/link'
 import React from 'react'
+import LeetCode from "@/../public/icon/leetcode.png"
+import Logo from "@/../public/logo.png"
+import Image from 'next/image'
 
 const Navbar = () => {
     return (
-        <div className='container mx-auto flex justify-between py-12 fixed top-0 left-0 right-0 text-white font-bold'>
-            <div className="">Sadi</div>
+        <nav className='container mx-auto flex justify-between items-center py-8 absolute top-0 left-0 right-0 text-white font-bold'>
+            <div className="">
+                <Image
+                    src={Logo}
+                    alt="logo"
+                    width={70}
+                    placeholder='blur'
+                />
+            </div>
             <ul className="flex justify-between">
                 <li className='px-5 cursor-pointer'>
-                    <Link href="/about">Home</Link>
+                    <Link href="/">Home</Link>
                 </li>
-                <li className='px-5 cursor-pointer'>About</li>
-                <li className='px-5 cursor-pointer'>Skills</li>
-                <li className='px-5 cursor-pointer'>Portfolio</li>
-                <li className='px-5 cursor-pointer'>Contact</li>
+                <li className='px-5 cursor-pointer'>
+                    <Link href="/about">About</Link>
+                </li>
+                <li className='px-5 cursor-pointer'>
+                    <Link href="/skills">Skills</Link>
+                </li>
+                <li className='px-5 cursor-pointer'>
+                    <Link href="/portfolio">Portfolio</Link>
+                </li>
+                <li className='px-5 cursor-pointer'>
+                    <Link href="/contact">Contact</Link>
+                </li>
             </ul>
-            <div  className="">
-                icon
+            <div className="">
+                <a className='border-[5px] border-[#dd9f44] inline-block rounded-lg' target='_blank' href="https://leetcode.com/sadi-tanvir/">
+                    <Image
+                        src={LeetCode}
+                        alt='LeetCode Logo'
+                        width={110}
+                        className=''
+                    />
+                </a>
             </div>
-        </div>
+        </nav>
     )
 }
 
