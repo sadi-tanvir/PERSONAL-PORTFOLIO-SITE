@@ -2,6 +2,7 @@ import AboutMe from "@/components/Home-components/AboutMe";
 import Introduction from "@/components/Home-components/Introduction";
 import ParticlesBg from "@/components/Home-components/ParticlesBg";
 import Projects from "@/components/Home-components/Projects/Projects";
+import Skills from "@/components/Home-components/skils/Skills";
 
 export default function Home() {
   return (
@@ -11,9 +12,9 @@ export default function Home() {
         <Introduction></Introduction>
       </section>
 
-      <AboutMe />
-
-      <Projects />
+      <AboutMe></AboutMe>
+      <Skills></Skills>
+      <Projects></Projects>
     </main>
   );
 }
