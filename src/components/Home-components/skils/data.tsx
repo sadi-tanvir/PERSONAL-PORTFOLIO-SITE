@@ -1,19 +1,19 @@
-import NextJs from "@/../public/Technoloy/next_js_light.ico";
-import ReactJs from "@/../public/Technoloy/react_js.ico";
+import NextJs from "@/../public/Technoloy/next_js.png";
+import ReactJs from "@/../public/Technoloy/react_js.png";
 import JavaScript from "@/../public/Technoloy/javascript_icon.png";
-import TypeScript from "@/../public/Technoloy/typescript.ico";
-import ReduxJs from "@/../public/Technoloy/redux.ico";
-import TailwindCss from "@/../public/Technoloy/tailwind.ico";
-import Bootstrap from "@/../public/Technoloy/bootstrap.ico";
-import Sass from "@/../public/Technoloy/sass.ico";
+import TypeScript from "@/../public/Technoloy/typescript.png";
+import ReduxJs from "@/../public/Technoloy/redux.png";
+import TailwindCss from "@/../public/Technoloy/tailwind.png";
+import Bootstrap from "@/../public/Technoloy/bootstrap.png";
+import Sass from "@/../public/Technoloy/sass.png";
 import ApolloClient from "@/../public/Technoloy/apollo_client2.png";
-import GraphQl from "@/../public/Technoloy/graphQL.ico";
-import NodeJs from "@/../public/Technoloy/NodeJs.ico";
-import ExpressJs from "@/../public/Technoloy/express.ico";
-import MongoDB from "@/../public/Technoloy/mongodb.ico";
+import GraphQl from "@/../public/Technoloy/graphQL.png";
+import NodeJs from "@/../public/Technoloy/NodeJs.png";
+import ExpressJs from "@/../public/Technoloy/express.png";
+import MongoDB from "@/../public/Technoloy/mongodb.png";
 import Mongoose from "@/../public/Technoloy/mongoose.png";
-import Firebase from "@/../public/Technoloy/firebase.ico";
-import Docker from "@/../public/Technoloy/docker.ico";
+import Firebase from "@/../public/Technoloy/firebase.png";
+import Docker from "@/../public/Technoloy/docker.png";
 
 
 interface TechnologyList {
