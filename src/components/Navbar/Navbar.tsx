@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import React from 'react'
-import LeetCode from "@/../public/icon/leetcode.png"
 import Logo from "@/../public/logo.png"
 import Image from 'next/image'
+import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
     return (
@@ -32,16 +32,17 @@ const Navbar = () => {
                     <a href="#portfolio">Portfolio</a>
                 </li>
                 <li className='px-5 cursor-pointer'>
-                    <Link href="/contact">Contact</Link>
+                    {/* <Link href="/contact">Contact</Link> */}
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
+
             <div className="">
-                <a className='border-[5px] border-[#dd9f44] inline-block rounded-lg' target='_blank' href="https://leetcode.com/sadi-tanvir/">
-                    <Image
-                        src={LeetCode}
-                        alt='LeetCode Logo'
-                        width={110}
-                        className=''
+                <a target='_blank' href="https://github.com/sadi-tanvir">
+                    <FaGithub
+                        size="52px"
+                        color='white'
+                        className='bg-slate-600 rounded-full'
                     />
                 </a>
             </div>
