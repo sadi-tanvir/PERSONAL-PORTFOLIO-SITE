@@ -12,7 +12,7 @@ const AboutMe = () => {
             <div className='flex flex-col pt-16 px-5'>
                 <h2 className='text-3xl font-bold text-[#2ed573]'>About Me</h2>
                 <p className="text-white text-justify tracking-wide">
-                    Hello there! I'm passionate about crafting engaging web experiences and solving complex problems. With expertise in technologies like
+                    Hello there! I&rsquo;m passionate about crafting engaging web experiences and solving complex problems. With expertise in technologies like
                     <span className='text-[#2ed573]'> React.js</span>,
                     <span className='text-[#2ed573]'> Next.js</span>, and
                     <span className='text-[#2ed573]'> GraphQL</span>, I bring ideas to life with clean code and intuitive user interfaces. I also excel in
@@ -21,7 +21,7 @@ const AboutMe = () => {
                     <span className='text-[#2ed573]'> RESTful</span> and
                     <span className='text-[#2ed573]'> GraphQL</span> APIs using technologies like
                     <span className='text-[#2ed573]'> Express.js</span> and
-                    <span className='text-[#2ed573]'> MongoDB</span>, let's collaborate and create something extraordinary together!
+                    <span className='text-[#2ed573]'> MongoDB</span>, let&rsquo;s collaborate and create something extraordinary together!
                 </p>
 
                 <div className='flex justify-center sm:justify-start space-x-4 mt-5'>
