@@ -1,14 +1,20 @@
 import React from 'react';
-import ModernEcommerceProject from './ModernEcommerceProject';
-import SadiE_ShopProject from './SadiE_ShopProject';
+import ProjectCard from './ProjectCard';
+import { projectResourcesData } from "@/components/Home-components/Projects/projectData";
 
 
 const Projects = () => {
     return (
-        <div id='portfolio' className="mt-24 mb-20 container mx-auto">
-            <h1 className='text-4xl text-gray-200 text-center font-bold'>Portfolio</h1>
-            <ModernEcommerceProject />
-            <SadiE_ShopProject />
+        <div id='portfolio' className="w-[90%] sm:container mx-auto mt-24 mb-20">
+            <h1 className='text-4xl text-gray-200 text-center font-bold uppercase'>Portfolio</h1>
+            {
+                projectResourcesData?.map((project: any) => (
+                    <ProjectCard
+                        key={project.projectId}
+                        project={project}
+                    />
+                ))
+            }
         </div>
     )
 }

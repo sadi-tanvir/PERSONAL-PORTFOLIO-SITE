@@ -8,10 +8,10 @@ import linkedin from "@/../public/icon/linkedin.png";
 const AboutMe = () => {
     return (
         <>
-            <div id='about' className="bg-gray-800 container rounded-lg mx-auto h-auto grid grid-cols-1 sm:grid-cols-2 content-center  pb-10 px-5 pt-16 mt-16">
-                <div className='flex flex-col sm:pt-5 px-5'>
-                    <h2 className='text-3xl font-bold text-[#2ed573]'>About Me</h2>
-                    <p className="text-white text-justify tracking-wide">
+            <div id='about' className=" w-[90%] sm:container bg-gray-800 rounded-xl mx-auto h-auto grid grid-cols-1 md:grid-cols-2 content-center  pb-10 px-8 pt-10 mt-16">
+                <div className='flex flex-col sm:pt-3 pr-5'>
+                    <h2 className='text-3xl font-bold text-[#2ed573] uppercase'>About Me</h2>
+                    <p className="text-white text-justify tracking-wide mt-2">
                         Hello there! I&rsquo;m passionate about crafting engaging web experiences and solving complex problems. With expertise in technologies like
                         <span className='text-[#2ed573]'> React.js</span>,
                         <span className='text-[#2ed573]'> Next.js</span>, and
@@ -24,7 +24,7 @@ const AboutMe = () => {
                         <span className='text-[#2ed573]'> MongoDB</span>, let&rsquo;s collaborate and create something extraordinary together!
                     </p>
 
-                    <div className='flex justify-center sm:justify-start space-x-4 mt-5'>
+                    <div className='flex justify-center md:justify-start space-x-4 mt-5'>
                         <a target='_blank' href="https://github.com/sadi-tanvir">
                             <FaGithub
                                 size="45px"
@@ -49,7 +49,7 @@ const AboutMe = () => {
                         </a>
                     </div>
                 </div>
-                <div className='flex justify-center sm:justify-end mt-10 sm:mt-0'>
+                <div className='hidden md:flex justify-center sm:justify-end mt-10 sm:mt-0'>
                     <Image
                         src={EmptyAvatar}
                         alt="empty-avatar"

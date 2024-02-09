@@ -2,10 +2,10 @@
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image';
 import classes from "./Projects.module.css";
-import PP1 from "@/../public/projects/sadi-eshop/1.png";
-import PP2 from "@/../public/projects/sadi-eshop/2.png";
-import PP3 from "@/../public/projects/sadi-eshop/3.png";
-import PP4 from "@/../public/projects/sadi-eshop/4.png";
+import P_2_1 from "@/../public/projects/sadi-eshop/1.png";
+import P_2_2 from "@/../public/projects/sadi-eshop/2.png";
+import P_2_3 from "@/../public/projects/sadi-eshop/3.png";
+import P_2_4 from "@/../public/projects/sadi-eshop/4.png";
 import { SiNextdotjs } from "react-icons/si";
 import { TbBrandRedux } from "react-icons/tb";
 import { SiTailwindcss } from "react-icons/si";
@@ -20,7 +20,7 @@ const SadiE_ShopProject = () => {
     const [currentSlider, setCurrentSlider] = useState(0);
 
     // slider images
-    const sliderImages = [PP1, PP2, PP3, PP4]
+    const sliderImages = [P_2_1, P_2_2, P_2_3, P_2_4]
 
     // front-end technology lists
     const frontendTechnologies = [

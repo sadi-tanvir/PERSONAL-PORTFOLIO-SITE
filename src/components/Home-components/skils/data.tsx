@@ -12,6 +12,7 @@ import NodeJs from "@/../public/Technoloy/NodeJs.png";
 import ExpressJs from "@/../public/Technoloy/express.png";
 import MongoDB from "@/../public/Technoloy/mongodb.png";
 import Mongoose from "@/../public/Technoloy/mongoose.png";
+import MySQL from "@/../public/Technoloy/mysql.png";
 import Firebase from "@/../public/Technoloy/firebase.png";
 import Docker from "@/../public/Technoloy/docker.png";
 
@@ -82,26 +83,32 @@ export const technologies: TechnologyList[] = [
     },
     {
         id: 12,
+        url: MySQL,
+        name: '',
+        className: "w-full"
+    },
+    {
+        id: 13,
         url: TailwindCss,
         name: 'Tailwind'
     },
     {
-        id: 13,
+        id: 14,
         url: Bootstrap,
         name: 'Bootstrap'
     },
     {
-        id: 14,
+        id: 15,
         url: Sass,
         name: 'Sass'
     },
     {
-        id: 15,
+        id: 16,
         url: Firebase,
         name: 'Firebase'
     },
     {
-        id: 15,
+        id: 17,
         url: Docker,
         name: 'Docker'
     },
