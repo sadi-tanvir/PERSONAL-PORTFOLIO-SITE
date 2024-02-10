@@ -33,17 +33,17 @@ const ContactMe = () => {
                         <form>
                             <div className="mb-6">
                                 <label htmlFor="name" className="block text-sm font-semibold text-gray-800">Your Name</label>
-                                <input type="text" id="name" name="name" className="rounded-md mt-1 p-3 w-full border-b-2 focus:outline-none focus:border-gray-800 transition duration-300" />
+                                <input placeholder="name" type="text" id="name" name="name" className="rounded-md mt-1 p-3 w-full border-b-2 focus:outline-none focus:border-gray-800 transition duration-300" />
                             </div>
 
                             <div className="mb-6">
                                 <label htmlFor="email" className="block text-sm font-semibold text-gray-800">Your Email</label>
-                                <input type="email" id="email" name="email" className="rounded-md mt-1 p-3 w-full border-b-2 focus:outline-none focus:border-gray-800 transition duration-300" />
+                                <input placeholder="info@example.com" type="email" id="email" name="email" className="rounded-md mt-1 p-3 w-full border-b-2 focus:outline-none focus:border-gray-800 transition duration-300" />
                             </div>
 
                             <div className="mb-6">
                                 <label htmlFor="message" className="block text-sm font-semibold text-gray-800">Your Message</label>
-                                <textarea id="message" name="message" rows={4} className="rounded-md mt-1 p-3 w-full border-b-2 focus:outline-none focus:border-gray-800 transition duration-300"></textarea>
+                                <textarea placeholder="Write Something.." id="message" name="message" rows={4} className="rounded-md mt-1 p-3 w-full border-b-2 focus:outline-none focus:border-gray-800 transition duration-300"></textarea>
                             </div>
 
                             <button type="submit" className="bg-[#2ed573] text-white p-3 rounded-md hover:bg-gray-800 transition duration-300">Send Message</button>

@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[#111a28] scroll-smooth`}>
+      <body className={`${inter.className} bg-[#111a28]`}>
         <Navbar></Navbar>
         {children}
         <Footer></Footer>

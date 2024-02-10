@@ -9,6 +9,33 @@ import P_2_2 from "@/../public/projects/sadi-eshop/2.png";
 import P_2_3 from "@/../public/projects/sadi-eshop/3.png";
 import P_2_4 from "@/../public/projects/sadi-eshop/4.png";
 
+// Sadi Eshop
+import P_3_1 from "@/../public/projects/store-management/1.png";
+import P_3_2 from "@/../public/projects/store-management/2.png";
+import P_3_3 from "@/../public/projects/store-management/3.png";
+import P_3_4 from "@/../public/projects/store-management/4.png";
+
+// Sadi Eshop
+import P_4_1 from "@/../public/projects/poultry-farm-management/1.png";
+import P_4_2 from "@/../public/projects/poultry-farm-management/2.png";
+import P_4_3 from "@/../public/projects/poultry-farm-management/3.png";
+import P_4_4 from "@/../public/projects/poultry-farm-management/4.png";
+
+// Real-Time Chat Application
+import P_5_1 from "@/../public/projects/realtime-chat-app/1.png";
+import P_5_2 from "@/../public/projects/realtime-chat-app/2.png";
+import P_5_3 from "@/../public/projects/realtime-chat-app/3.png";
+import P_5_4 from "@/../public/projects/realtime-chat-app/4.png";
+
+// Voice Recognition and Language Translator
+import P_6_1 from "@/../public/projects/voice-recognition-translator/1.png";
+
+// Draggable Image Gallery
+import P_7_1 from "@/../public/projects/draggable-image-gallery/1.png";
+
+
+
+
 import { SiJsonwebtokens, SiNextdotjs } from "react-icons/si";
 import { SiApollographql } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
@@ -19,10 +46,18 @@ import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiMongoose } from "react-icons/si";
 import { FaCcStripe } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { FaSass } from "react-icons/fa";
+import { FaBootstrap } from "react-icons/fa";
+import { SiSocketdotio } from "react-icons/si";
+import { FaHtml5 } from "react-icons/fa";
+import { IoLogoCss3 } from "react-icons/io";
+import { RiJavascriptFill } from "react-icons/ri";
 
 export const projectResourcesData = [
     {
         projectId: 1,
+        isAuthenticate: true,
         projectName: "Modern Ecommerce",
         projectLiveLink: "https://modern-ecommerce-app.vercel.app",
         frontendRepositoryLInk: "https://github.com/sadi-tanvir/Modern-ECommerce-Client",
@@ -35,7 +70,7 @@ export const projectResourcesData = [
             },
             {
                 id: 2,
-                icon: <SiTypescript className='text-blue-600' />,
+                icon: <SiTypescript className='text-blue-600 rounded' />,
             },
             {
                 id: 3,
@@ -53,22 +88,26 @@ export const projectResourcesData = [
         backendTechnologies: [
             {
                 id: 1,
-                icon: <GrGraphQl className='text-pink-700' />,
+                icon: <SiTypescript className='text-blue-600 rounded' />,
             },
             {
                 id: 2,
-                icon: <SiApollographql className='text-teal-500' />,
+                icon: <GrGraphQl className='text-pink-700' />,
             },
             {
                 id: 3,
-                icon: <SiExpress className='text-gray-200' />,
+                icon: <SiApollographql className='text-teal-500' />,
             },
             {
                 id: 4,
-                icon: <SiMongodb className='text-green-400' />,
+                icon: <SiExpress className='text-gray-200' />,
             },
             {
                 id: 5,
+                icon: <SiMongodb className='text-green-400' />,
+            },
+            {
+                id: 6,
                 icon: <SiMongoose className='text-red-600 text-4xl' />,
             },
         ],
@@ -77,6 +116,7 @@ export const projectResourcesData = [
 
     {
         projectId: 2,
+        isAuthenticate: true,
         projectName: "E-Shop",
         projectLiveLink: "https://sadi-e-shop.vercel.app",
         frontendRepositoryLInk: "https://github.com/sadi-tanvir/Sadi-EShop",
@@ -119,6 +159,224 @@ export const projectResourcesData = [
         ],
         sliderImages: [P_2_1, P_2_2, P_2_3, P_2_4]
     },
-]
+
+    {
+        projectId: 3,
+        isAuthenticate: true,
+        projectName: "Store Management",
+        projectLiveLink: "https://storemanagementsite.netlify.app/",
+        frontendRepositoryLInk: "https://github.com/sadi-tanvir/store-management-client",
+        backendRepositoryLInk: "https://github.com/sadi-tanvir/store-management-server",
+        projectDetailsLink: "https://github.com/sadi-tanvir/store-management-client#store-management-application",
+        frontendTechnologies: [
+            {
+                id: 1,
+                icon: <SiTypescript className='text-blue-600 rounded' />,
+            },
+            {
+                id: 2,
+                icon: <FaReact className='text-cyan-500' />,
+            },
+            {
+                id: 3,
+                icon: <TbBrandRedux className='text-purple-700' />,
+            },
+            {
+                id: 4,
+                icon: <SiApollographql className='text-teal-500' />,
+            },
+            {
+                id: 5,
+                icon: <SiTailwindcss className='text-cyan-600' />,
+            },
+            {
+                id: 5,
+                icon: <FaSass className='text-pink-600' />,
+            },
+        ],
+        backendTechnologies: [
+            {
+                id: 1,
+                icon: <SiTypescript className='text-blue-600 rounded' />,
+            },
+            {
+                id: 2,
+                icon: <GrGraphQl className='text-pink-700' />,
+            },
+            {
+                id: 3,
+                icon: <SiApollographql className='text-teal-500' />,
+            },
+            {
+                id: 4,
+                icon: <SiMongodb className='text-green-400' />,
+            },
+            {
+                id: 5,
+                icon: <SiMongoose className='text-red-600 text-4xl' />,
+            },
+            {
+                id: 6,
+                icon: <SiExpress className='text-gray-200' />,
+            },
+            {
+                id: 7,
+                icon: <SiJsonwebtokens className='text-red-300' />,
+            },
+            {
+                id: 8,
+                icon: <FaCcStripe className='text-blue-400' />,
+            },
+        ],
+        sliderImages: [P_3_1, P_3_2, P_3_3, P_3_4]
+    },
+
+    {
+        projectId: 4,
+        isAuthenticate: true,
+        projectName: "Poultry Farm Management",
+        projectLiveLink: "https://farm-management0.netlify.app/",
+        frontendRepositoryLInk: "https://github.com/sadi-tanvir/broiler_farm_management_frontend",
+        backendRepositoryLInk: "https://github.com/sadi-tanvir/broiler_farm_management_backend",
+        projectDetailsLink: "https://github.com/sadi-tanvir/broiler_farm_management_frontend?tab=readme-ov-file#poultry-farm-management",
+        frontendTechnologies: [
+            {
+                id: 1,
+                icon: <FaReact className='text-cyan-500' />,
+            },
+            {
+                id: 2,
+                icon: <TbBrandRedux className='text-purple-700' />,
+            },
+            {
+                id: 3,
+                icon: <FaBootstrap className='text-purple-600' />,
+            },
+            {
+                id: 4,
+                icon: <FaSass className='text-pink-600' />,
+            },
+        ],
+        backendTechnologies: [
+            {
+                id: 1,
+                icon: <SiExpress className='text-gray-200' />,
+            },
+            {
+                id: 2,
+                icon: <SiMongodb className='text-green-400' />,
+            },
+            {
+                id: 3,
+                icon: <SiMongoose className='text-red-600 text-4xl' />,
+            },
+            {
+                id: 4,
+                icon: <SiJsonwebtokens className='text-red-300' />,
+            },
+        ],
+        sliderImages: [P_4_1, P_4_2, P_4_3, P_4_4]
+    },
+
+    {
+        projectId: 5,
+        isAuthenticate: true,
+        projectName: "Realtime Chat Application",
+        projectLiveLink: "https://sadi-chat-app.netlify.app/",
+        frontendRepositoryLInk: "https://github.com/sadi-tanvir/realtime-chat-application-client",
+        backendRepositoryLInk: "https://github.com/sadi-tanvir/realtime-chat-application-server",
+        projectDetailsLink: "https://github.com/sadi-tanvir/realtime-chat-application-client#real-time-chat-application",
+        frontendTechnologies: [
+            {
+                id: 1,
+                icon: <FaReact className='text-cyan-500' />,
+            },
+            {
+                id: 2,
+                icon: <TbBrandRedux className='text-purple-700' />,
+            },
+            {
+                id: 3,
+                icon: <SiSocketdotio className='' />,
+            },
+            {
+                id: 4,
+                icon: <SiTailwindcss className='text-cyan-600' />,
+            },
+        ],
+        backendTechnologies: [
+            {
+                id: 1,
+                icon: <SiSocketdotio className='' />,
+            },
+            {
+                id: 2,
+                icon: <SiExpress className='text-gray-200' />,
+            },
+            {
+                id: 3,
+                icon: <SiMongodb className='text-green-400' />,
+            },
+            {
+                id: 4,
+                icon: <SiMongoose className='text-red-600 text-4xl' />,
+            },
+            {
+                id: 5,
+                icon: <SiJsonwebtokens className='text-red-300' />,
+            },
+        ],
+        sliderImages: [P_5_1, P_5_2, P_5_3, P_5_4]
+    },
+
+    {
+        projectId: 6,
+        isAuthenticate: false,
+        projectName: "Voice Recognition and Language Translator",
+        projectLiveLink: "https://sadi-tanvir.github.io/Voice-Recognition-and-Language-Translator/",
+        frontendRepositoryLInk: "https://github.com/sadi-tanvir/Voice-Recognition-and-Language-Translator",
+        projectDetailsLink: "https://github.com/sadi-tanvir/Voice-Recognition-and-Language-Translator#voice-recognition-and-language-translator",
+        frontendTechnologies: [
+            {
+                id: 1,
+                icon: <RiJavascriptFill className='text-yellow-500' />,
+            },
+            {
+                id: 2,
+                icon: <FaHtml5 className='text-orange-500' />,
+            },
+            {
+                id: 3,
+                icon: <IoLogoCss3 className='text-blue-500' />,
+            },
+        ],
+        backendTechnologies: [],
+        sliderImages: [P_6_1]
+    },
+    {
+        projectId: 7,
+        isAuthenticate: false,
+        projectName: "Draggable Image Gallery",
+        projectLiveLink: "https://image-gallery20.netlify.app/",
+        frontendRepositoryLInk: "https://github.com/sadi-tanvir/Image-Gallery",
+        projectDetailsLink: "https://github.com/sadi-tanvir/Image-Gallery#image-gallery-app",
+        frontendTechnologies: [
+            {
+                id: 1,
+                icon: <SiTypescript className='text-blue-600 rounded' />,
+            },
+            {
+                id: 2,
+                icon: <FaReact className='text-cyan-500' />,
+            },
+            {
+                id: 3,
+                icon: <SiTailwindcss className='text-cyan-600' />,
+            },
+        ],
+        backendTechnologies: [],
+        sliderImages: [P_7_1]
+    },
+];
 
 

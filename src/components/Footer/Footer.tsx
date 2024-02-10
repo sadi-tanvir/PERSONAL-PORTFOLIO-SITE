@@ -5,6 +5,9 @@ import { SiLeetcode } from 'react-icons/si'
 import linkedin from "@/../public/icon/linkedin.png";
 import { FaRegCopyright } from "react-icons/fa6";
 import ME from "@/../public/me.png";
+import { MdOutlineEmail } from "react-icons/md";
+import { FaPhoneAlt } from "react-icons/fa";
+import Logo from "@/../public/Logo.png";
 
 const Footer = () => {
     return (
@@ -18,12 +21,12 @@ const Footer = () => {
                         className='w-24 mx-auto sm:mx-0'
                     />
                     <p className='mt-1 text-[#2ed573]'>Full Stack Developer</p>
-                    <p className='mt-1'>
-                        <strong>Email : </strong>
+                    <p className='mt-1 flex items-center'>
+                        <MdOutlineEmail className='mr-2 mb-[2px]' />
                         htanvir.sadi@gmail.com
                     </p>
-                    <p className='mt-'>
-                        <strong>Phone : </strong>
+                    <p className='mt-px  flex items-center'>
+                        <FaPhoneAlt className='mr-2 mb-[2px]' />
                         +880 1881-540890
                     </p>
                 </div>
@@ -53,7 +56,12 @@ const Footer = () => {
                     </a>
                 </div>
 
-                <div className='space-y-5 mt-12 mx-auto sm:col-span-2 md:col-span-1'>
+                <div className='space-y-5 mt-12 md:mt-0 mx-auto sm:col-span-2 md:col-span-1'>
+                    <Image 
+                        src={Logo}
+                        alt='Logo'
+                        className='w-14 mx-auto'
+                    />
                     <div className='space-y-2 flex flex-col justify-center items-center'>
                         <p>
                             Designed & Developed by
@@ -62,11 +70,11 @@ const Footer = () => {
                             </a>
                         </p>
                         <p className='flex'>
-                            <FaRegCopyright className='mr-[2px] mt-[3px]' />
-                            2024, All Rights Reserved
+                            <FaRegCopyright className='mr-1 mt-[3px]' />
+                            2024, All Rights Reserved.
                         </p>
                     </div>
-                    <p className='text-center'>Thanks for visiting my profile.</p>
+                    <p className='text-center text-[#2ed573]'>Thank you for visiting.</p>
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import Logo from "@/../public/logo.png"
+import Logo from "@/../public/Logo.png";
 import Image from 'next/image'
 import { FaGithub } from "react-icons/fa";
 
@@ -11,7 +11,7 @@ const Navbar = () => {
                 <Image
                     src={Logo}
                     alt="logo"
-                    className='w-16 xl:w-20'
+                    className='w-12 xl:w-20'
                     placeholder='blur'
                 />
             </div>
