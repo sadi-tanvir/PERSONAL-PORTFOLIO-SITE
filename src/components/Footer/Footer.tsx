@@ -7,7 +7,7 @@ import { FaRegCopyright } from "react-icons/fa6";
 import ME from "@/../public/me.png";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
-import Logo from "@/../public/Logo.png";
+import Logo from "@/../public/logo.png";
 
 const Footer = () => {
     return (

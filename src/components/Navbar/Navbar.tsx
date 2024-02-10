@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import Logo from "@/../public/Logo.png";
+import Logo from "@/../public/logo.png";
 import Image from 'next/image'
 import { FaGithub } from "react-icons/fa";
 
