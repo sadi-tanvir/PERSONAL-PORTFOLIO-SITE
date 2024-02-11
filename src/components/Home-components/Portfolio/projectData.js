@@ -57,6 +57,7 @@ import { RiJavascriptFill } from "react-icons/ri";
 export const projectResourcesData = [
     {
         projectId: 1,
+        projectCategory: 'ReactAndNext',
         isAuthenticate: true,
         projectName: "Modern Ecommerce",
         projectLiveLink: "https://modern-ecommerce-app.vercel.app",
@@ -116,6 +117,7 @@ export const projectResourcesData = [
 
     {
         projectId: 2,
+        projectCategory: 'ReactAndNext',
         isAuthenticate: true,
         projectName: "E-Shop",
         projectLiveLink: "https://sadi-e-shop.vercel.app",
@@ -162,6 +164,7 @@ export const projectResourcesData = [
 
     {
         projectId: 3,
+        projectCategory: 'ReactAndNext',
         isAuthenticate: true,
         projectName: "Store Management",
         projectLiveLink: "https://storemanagementsite.netlify.app/",
@@ -233,6 +236,7 @@ export const projectResourcesData = [
 
     {
         projectId: 4,
+        projectCategory: 'ReactAndNext',
         isAuthenticate: true,
         projectName: "Poultry Farm Management",
         projectLiveLink: "https://farm-management0.netlify.app/",
@@ -280,6 +284,7 @@ export const projectResourcesData = [
 
     {
         projectId: 5,
+        projectCategory: 'ReactAndNext',
         isAuthenticate: true,
         projectName: "Realtime Chat Application",
         projectLiveLink: "https://sadi-chat-app.netlify.app/",
@@ -331,6 +336,7 @@ export const projectResourcesData = [
 
     {
         projectId: 6,
+        projectCategory: 'javascript',
         isAuthenticate: false,
         projectName: "Voice Recognition and Language Translator",
         projectLiveLink: "https://sadi-tanvir.github.io/Voice-Recognition-and-Language-Translator/",
@@ -355,6 +361,7 @@ export const projectResourcesData = [
     },
     {
         projectId: 7,
+        projectCategory: 'ReactAndNext',
         isAuthenticate: false,
         projectName: "Draggable Image Gallery",
         projectLiveLink: "https://image-gallery20.netlify.app/",

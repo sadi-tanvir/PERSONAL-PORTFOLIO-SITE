@@ -2,7 +2,7 @@ import React from 'react';
 import TechCard from './TechCard';
 import { technologies } from "./data"
 
-const Skills = () => {
+const SkillsLayout = () => {
     return (
         <div id='skills' className='w-[90%] sm:container mx-auto mt-24 bg-gray-800 py-16  rounded-xl shadow-xl'>
             <div className='text-center lg:w-[500px] mx-auto'>
@@ -26,4 +26,4 @@ const Skills = () => {
     );
 };
 
-export default Skills;
+export default SkillsLayout;

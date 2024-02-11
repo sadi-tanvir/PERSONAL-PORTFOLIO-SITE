@@ -86,8 +86,8 @@ const ProjectCard = ({ project }: { project: ProjectDataTypes }) => {
                         {/* back-end technology */}
                         {
                             backendTechnologies?.length > 0 &&
-                            <div className='sm:ml-auto sm:mr-10'>
-                                <p className="font-bold text-center sm:text-start">BACK-END TECHNOLOGIES</p>
+                            <div className={`sm:ml-auto sm:mr-10`}>
+                                <p className={`font-bold text-center sm:text-start`}>BACK-END TECHNOLOGIES</p>
                                 <span className="font-bold"></span>
                                 <div className='flex flex-wrap gap-3 justify-center sm:justify-start items-center mt-4 mb-5'>
                                     {

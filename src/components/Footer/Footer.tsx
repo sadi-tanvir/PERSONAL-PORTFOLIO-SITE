@@ -1,5 +1,6 @@
+'use client'
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { FaGithub } from 'react-icons/fa'
 import { SiLeetcode } from 'react-icons/si'
 import linkedin from "@/../public/icon/linkedin.png";
@@ -8,8 +9,28 @@ import ME from "@/../public/me.png";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import Logo from "@/../public/logo.png";
+import { BsArrowUpSquareFill } from "react-icons/bs";
 
 const Footer = () => {
+    const [showTopBtn, setShowTopBtn] = useState(false)
+    const toTop = useRef();
+
+    const scrollToTop = (elemRef: any) => {
+        window.scrollTo({ top: 0, behavior: 'smooth' })
+    }
+
+    useEffect(() => {
+        const handlerScroll = (event: any) => {
+            if (window.scrollY > 500) {
+                setShowTopBtn(true)
+            } else {
+                setShowTopBtn(false)
+            }
+        }
+        window.addEventListener("scroll", handlerScroll)
+        return () => window.removeEventListener("scroll", handlerScroll)
+    }, [])
+
     return (
         <div className='w-full py-20 text-gray-300 bg-gray-800'>
             <div className='container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3'>
@@ -31,7 +52,7 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="space-y-3 mx-auto">
-                    <h3 className='text-xl underline capitalize text-[#2ed573]'>profile links</h3>
+                    <h3 className={`text-xl underline capitalize text-[#2ed573] ${showTopBtn ? 'animate__animated animate__bounce' : ''}`}>profile links</h3>
                     <a target='_blank' href="https://github.com/sadi-tanvir" className='flex items-center text-lg underline'>
                         <FaGithub
                             color='white'
@@ -57,7 +78,7 @@ const Footer = () => {
                 </div>
 
                 <div className='space-y-5 mt-12 md:mt-0 mx-auto sm:col-span-2 md:col-span-1'>
-                    <Image 
+                    <Image
                         src={Logo}
                         alt='Logo'
                         className='w-14 mx-auto'
@@ -77,6 +98,14 @@ const Footer = () => {
                     <p className='text-center text-[#2ed573]'>Thank you for visiting.</p>
                 </div>
             </div>
+            {
+                showTopBtn && <p
+                    onClick={() => scrollToTop(toTop)}
+                    className='animate-pulse duration-1000 ease-in-out  text-white fixed right-10 bottom-14 text-4xl cursor-pointer'
+                ><BsArrowUpSquareFill />
+                </p>
+            }
+
         </div>
     );
 };
