@@ -27,9 +27,9 @@ const PortfolioLayout = () => {
     }, [btnTrack])
 
     return (
-        <div id='portfolio' className="w-[90%] sm:container mx-auto mt-24 mb-20">
-            <h1 className='text-4xl text-gray-200 text-center font-bold mb-12'>Portfolio</h1>
-            <div className='w-full mb-10'>
+        <div id='portfolio' className="w-[90%] sm:container mx-auto mt-32 mb-20">
+            <div className='w-full mb-12 flex flex-col md:flex-row items-center md:justify-between border-b pb-3'>
+                <h1 className='text-4xl text-gray-200 text-center font-bold mb-7 md:mb-0 uppercase'>Portfolio</h1>
                 <div className='w-fit px-2 py-2 bg-gray-700 rounded-full mx-auto md:mx-0'>
                     <button
                         onClick={() => setBtnTrack({ all: true, ReactAndNext: false, javascript: false })}

@@ -3,9 +3,10 @@
 Welcome to my personal portfolio website! This repository contains the source code for my portfolio site, showcasing my projects and skills.
 
 ## Technology Used
-
-- **Typescript**: Used for writing clean and maintainable code with static typing.
-- **Tailwind CSS**: Employed for rapidly styling and designing the website, providing a modern and responsive layout.
+- **Next.js**
+- **Redux**
+- **Typescript**
+- **Tailwind CSS**
 
 ## Live Link
 

@@ -26,7 +26,7 @@ const Navbar = () => {
 
 
             <div className='relative  w-full md:w-auto md:mt-2'>
-                <ul className={`${showNav ? "scale-100" : "scale-0 translate-x-36 sm:translate-x-42 md:translate-y-0 -translate-y-24 md:translate-x-0"}  md:scale-100  duration-300 ease-in-out absolute right-0 -top-5 md:top-0 w-5/6 sm:w-3/6 bg-gray-800 md:bg-transparent rounded-2xl md:rounded-none z-10 py-8 md:py-0 space-y-5 md:space-y-0 md:relative flex flex-col md:flex-row items-center justify-between `}>
+                <ul className={`${showNav ? "scale-100 border" : "scale-0 translate-x-36 sm:translate-x-42 md:translate-y-0 -translate-y-24 md:translate-x-0"}  md:scale-100  duration-300 ease-in-out absolute right-0 -top-5 md:top-0 w-5/6 sm:w-3/6 bg-gray-800 md:bg-transparent rounded-2xl md:rounded-none z-10 py-8 md:py-0 space-y-5 md:space-y-0 md:relative flex flex-col md:flex-row items-center justify-between `}>
                     <FiXSquare onClick={() => setShowNav(false)} className='text-4xl md:hidden absolute right-5 top-5 cursor-pointer hover:animate-pulse text-red-400' />
                     <li className='px-5 cursor-pointer uppercase text-[#2ed573] '>
                         <Link href="/">Home</Link>

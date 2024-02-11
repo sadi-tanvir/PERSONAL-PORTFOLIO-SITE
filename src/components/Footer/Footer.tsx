@@ -42,11 +42,11 @@ const Footer = () => {
                         className='w-24 mx-auto sm:mx-0'
                     />
                     <p className='mt-1 text-[#2ed573]'>Full Stack Developer</p>
-                    <p className='mt-1 flex items-center'>
+                    <p className='mt-1 flex justify-center sm:justify-start items-center'>
                         <MdOutlineEmail className='mr-2 mb-[2px]' />
                         htanvir.sadi@gmail.com
                     </p>
-                    <p className='mt-px  flex items-center'>
+                    <p className='mt-px  flex justify-center sm:justify-start items-center'>
                         <FaPhoneAlt className='mr-2 mb-[2px]' />
                         +880 1881-540890
                     </p>

@@ -1,8 +1,8 @@
 
 const ContactMe = () => {
     return (
-        <section id='contact' className="w-[90%] sm:container mx-auto rounded-xl px-1 sm:px-5 bg-gray-800 text-white py-16 relative overflow-hidden my-10">
-            <div className="container mx-auto relative z-10 px-6">
+        <section id='contact' className="w-[90%] sm:container mx-auto rounded-xl px-1 sm:px-5 bg-gray-800 text-white py-16 relative overflow-hidden mt-10 mb-16">
+            <div className="container mx-auto relative z-10 px-2 sm:px-6">
                 <h2 className="text-4xl font-extrabold mb-8 text-center">Let&rsquo;s Connect!</h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
