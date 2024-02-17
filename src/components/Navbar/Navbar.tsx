@@ -18,8 +18,9 @@ const Navbar = () => {
                     <Image
                         src={Logo}
                         alt="logo"
-                        className='w-12 xl:w-14'
+                        className='w-10 xl:w-14'
                         placeholder='blur'
+                        draggable={false}
                     />
                 </Link>
             </div>

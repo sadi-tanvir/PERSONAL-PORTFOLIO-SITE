@@ -81,7 +81,7 @@ const Footer = () => {
                     <Image
                         src={Logo}
                         alt='Logo'
-                        className='w-14 mx-auto'
+                        className='w-12 xl:w-14 mx-auto'
                     />
                     <div className='space-y-2 flex flex-col justify-center items-center'>
                         <p>
@@ -105,7 +105,6 @@ const Footer = () => {
                 ><BsArrowUpSquareFill />
                 </p>
             }
-
         </div>
     );
 };

@@ -9,17 +9,24 @@ import P_2_2 from "@/../public/projects/sadi-eshop/2.png";
 import P_2_3 from "@/../public/projects/sadi-eshop/3.png";
 import P_2_4 from "@/../public/projects/sadi-eshop/4.png";
 
-// Sadi Eshop
+// store-management
 import P_3_1 from "@/../public/projects/store-management/1.png";
 import P_3_2 from "@/../public/projects/store-management/2.png";
 import P_3_3 from "@/../public/projects/store-management/3.png";
 import P_3_4 from "@/../public/projects/store-management/4.png";
 
-// Sadi Eshop
+// poultry farm management
 import P_4_1 from "@/../public/projects/poultry-farm-management/1.png";
 import P_4_2 from "@/../public/projects/poultry-farm-management/2.png";
 import P_4_3 from "@/../public/projects/poultry-farm-management/3.png";
 import P_4_4 from "@/../public/projects/poultry-farm-management/4.png";
+
+// laravel online shopping
+import P_55_1 from "@/../public/projects/laravel-online-shopping/1.png";
+import P_55_2 from "@/../public/projects/laravel-online-shopping/2.png";
+import P_55_3 from "@/../public/projects/laravel-online-shopping/3.png";
+import P_55_4 from "@/../public/projects/laravel-online-shopping/4.png";
+
 
 // Real-Time Chat Application
 import P_5_1 from "@/../public/projects/realtime-chat-app/1.png";
@@ -53,6 +60,9 @@ import { SiSocketdotio } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
 import { RiJavascriptFill } from "react-icons/ri";
+import { FaPhp } from "react-icons/fa";
+import { FaLaravel } from "react-icons/fa";
+import { SiMysql } from "react-icons/si";
 
 export const projectResourcesData = [
     {
@@ -281,9 +291,33 @@ export const projectResourcesData = [
         ],
         sliderImages: [P_4_1, P_4_2, P_4_3, P_4_4]
     },
-
     {
         projectId: 5,
+        projectCategory: 'laravel',
+        isAuthenticate: false,
+        projectName: "Laravel-Online-Shopping",
+        projectLiveLink: "https://drive.google.com/file/d/13s0KYijD1tGx_39bSylO5Ku7Y-tS0yNH/view?usp=drive_link",
+        frontendRepositoryLInk: "https://github.com/sadi-tanvir/Laravel-online-shopping-mangement.git",
+        projectDetailsLink: "#",
+        additionalNameOfTechnology: "Technologies",
+        frontendTechnologies: [
+            {
+                id: 1,
+                icon: <FaPhp className='text-blue-500' />,
+            },
+            {
+                id: 2,
+                icon: <FaLaravel className='text-red-600' />,
+            },
+            {
+                id: 3,
+                icon: <SiMysql className='text-cyan-500' />,
+            }
+        ],
+        sliderImages: [P_55_1, P_55_2, P_55_3, P_55_4]
+    },
+    {
+        projectId: 6,
         projectCategory: 'ReactAndNext',
         isAuthenticate: true,
         projectName: "Realtime Chat Application",
@@ -335,7 +369,7 @@ export const projectResourcesData = [
     },
 
     {
-        projectId: 6,
+        projectId: 7,
         projectCategory: 'javascript',
         isAuthenticate: false,
         projectName: "Voice Recognition and Language Translator",
@@ -360,7 +394,7 @@ export const projectResourcesData = [
         sliderImages: [P_6_1]
     },
     {
-        projectId: 7,
+        projectId: 8,
         projectCategory: 'ReactAndNext',
         isAuthenticate: false,
         projectName: "Draggable Image Gallery",

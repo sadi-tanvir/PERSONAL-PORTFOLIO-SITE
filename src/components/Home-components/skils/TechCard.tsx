@@ -8,6 +8,7 @@ const TechCard = ({ imageUrl, name, className="w-6 sm:w-10" }: { imageUrl: any; 
                 src={imageUrl}
                 alt={name}
                 className={`${className}`}
+                draggable={false}
             />
             <span>{name}</span>
         </div>

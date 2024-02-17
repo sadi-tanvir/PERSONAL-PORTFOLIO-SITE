@@ -15,6 +15,8 @@ import Mongoose from "@/../public/Technoloy/mongoose.png";
 import MySQL from "@/../public/Technoloy/mysql.png";
 import Firebase from "@/../public/Technoloy/firebase.png";
 import Docker from "@/../public/Technoloy/docker.png";
+import PHP from "@/../public/Technoloy/php.png";
+import Laravel from "@/../public/Technoloy/laravel.png";
 
 
 interface TechnologyList {
@@ -52,64 +54,72 @@ export const technologies: TechnologyList[] = [
     },
     {
         id: 6,
-        url: GraphQl,
-        name: 'GraphQL',
-    },
-    {
-        id: 7,
-        url: ApolloClient,
-        name: '',
-        className: "w-full"
-    },
-    {
-        id: 8,
         url: NodeJs,
         name: 'Node.js',
     },
     {
+        id: 7,
+        url: PHP,
+        name: 'PHP',
+    },
+    {
+        id: 8,
+        url: Laravel,
+        name: 'Laravel',
+    },
+    {
         id: 9,
-        url: ExpressJs,
-        name: 'Express.js',
-    },
-    {
-        id: 10,
-        url: MongoDB,
-        name: 'MongoDB',
-    },
-    {
-        id: 11,
-        url: Mongoose,
-        name: 'Mongoose',
-    },
-    {
-        id: 12,
         url: MySQL,
         name: '',
         className: "w-full"
     },
     {
+        id: 10,
+        url: GraphQl,
+        name: 'GraphQL',
+    },
+    {
+        id: 11,
+        url: ApolloClient,
+        name: '',
+        className: "w-full"
+    },
+    
+    {
+        id: 12,
+        url: ExpressJs,
+        name: 'Express.js',
+    },
+    {
         id: 13,
+        url: MongoDB,
+        name: 'MongoDB',
+    },
+    {
+        id: 14,
+        url: Mongoose,
+        name: 'Mongoose',
+    },
+    {
+        id: 15,
         url: TailwindCss,
         name: 'Tailwind'
     },
     {
-        id: 14,
-        url: Bootstrap,
-        name: 'Bootstrap'
-    },
-    {
-        id: 15,
+        id: 17,
         url: Sass,
         name: 'Sass'
     },
     {
-        id: 16,
+        id: 18,
         url: Firebase,
         name: 'Firebase'
     },
     {
-        id: 17,
+        id: 19,
         url: Docker,
         name: 'Docker'
     },
+
+
 ]

@@ -13,6 +13,7 @@ interface ProjectDataTypes {
     frontendRepositoryLInk: string;
     backendRepositoryLInk?: string;
     projectDetailsLink?: string;
+    additionalNameOfTechnology?: string;
     frontendTechnologies: {
         id: number;
         icon: React.ReactNode;
@@ -28,7 +29,10 @@ const ProjectCard = ({ project }: { project: ProjectDataTypes }) => {
     // states
     const [currentSlider, setCurrentSlider] = useState(0);
 
-    const { projectId, isAuthenticate, projectName, projectLiveLink, frontendRepositoryLInk, backendRepositoryLInk, projectDetailsLink, frontendTechnologies, backendTechnologies, sliderImages } = project;
+    const { projectId, additionalNameOfTechnology, isAuthenticate, projectName, projectLiveLink, frontendRepositoryLInk, backendRepositoryLInk, projectDetailsLink, frontendTechnologies, backendTechnologies, sliderImages } = project;
+
+    console.log('sliderImages[currentSlider]', sliderImages[currentSlider]);
+
 
     // slider loop
     useEffect(() => {
@@ -42,11 +46,26 @@ const ProjectCard = ({ project }: { project: ProjectDataTypes }) => {
             <div className="container grid grid-cols-1 md:grid-cols-3 gap-5">
                 {/* slider start */}
                 <div className={`w-auto flex flex-col ${projectId % 2 === 0 ? "md:order-2" : "md:order-1"} justify-center items-center transform -translate-y-4 px-2 sm:px-10 md:px-0`}>
-                    <div className="h-auto transform duration-1000 ease-linear rounded-xl border-4 border-[#1f2937]">
+                    <div id='imageMagnifyer' className="h-auto transform duration-1000 ease-linear rounded-xl border-4 border-[#1f2937]">
+
+                        {/* <ReactImageMagnify {...{
+                            smallImage: {
+                                alt: 'Wristwatch by Ted Baker London',
+                                isFluidWidth: true,
+                                src: sliderImages[currentSlider]
+                            },
+                            largeImage: {
+                                src: sliderImages[currentSlider],
+                                width: 1200,
+                                height: 1800
+                            }
+                        }} /> */}
                         <Image
                             src={sliderImages[currentSlider]}
                             alt="slider"
                             className=' rounded-xl h-52'
+                            width={900}
+                            height={500}
                         />
                     </div>
                     {/* slider container */}
@@ -57,8 +76,12 @@ const ProjectCard = ({ project }: { project: ProjectDataTypes }) => {
                                 <Image
                                     key={index}
                                     onClick={() => setCurrentSlider(index)}
-                                    src={slide} className={`h-10 w-auto ${currentSlider === index ? 'border-2 border-black p-px' : ''} rounded-md md:rounded-lg box-content cursor-pointer`}
-                                    alt={"image"} />
+                                    src={slide}
+                                    className={`h-10 w-auto ${currentSlider === index ? 'border-2 border-black p-px' : ''} rounded-md md:rounded-lg box-content cursor-pointer`}
+                                    alt={"image"}
+                                    width={900}
+                                    height={500}
+                                />
                             ))}
                         </div>
                     }
@@ -74,7 +97,7 @@ const ProjectCard = ({ project }: { project: ProjectDataTypes }) => {
                     <div className={`flex flex-col sm:flex-row items-center sm:items-start gap-8 sm:gap-0 px-4 my-2 text-md `}>
                         {/* front-end technology */}
                         <div className={`sm:mr-auto ${projectId % 2 === 0 ? "md:ml-1" : ""}`}>
-                            <p className={`font-bold text-center sm:text-start`}>FRONT-END TECHNOLOGIES</p>
+                            <p className={`font-bold text-center sm:text-start`}>{project.additionalNameOfTechnology ? project.additionalNameOfTechnology : "FRONT-END TECHNOLOGIES"}</p>
                             <span className="font-bold"></span>
                             <div className='flex flex-wrap gap-3 justify-center sm:justify-start items-center mt-4 mb-5'>
                                 {
