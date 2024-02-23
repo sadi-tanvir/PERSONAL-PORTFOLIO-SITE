@@ -18,7 +18,7 @@ const Navbar = () => {
                     <Image
                         src={Logo}
                         alt="logo"
-                        className='w-10 xl:w-14'
+                        className='w-10 xl:w-12'
                         placeholder='blur'
                         draggable={false}
                     />
@@ -61,7 +61,7 @@ const Navbar = () => {
                 <a target='_blank' href="https://github.com/sadi-tanvir">
                     <FaGithub
                         color='white'
-                        className='bg-slate-600 rounded-full w-10 h-10 xl:w-12 xl:h-12'
+                        className='bg-slate-600 rounded-full w-9 h-9 xl:w-11 xl:h-11'
                     />
                 </a>
             </div>

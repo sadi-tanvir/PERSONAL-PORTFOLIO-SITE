@@ -5,3 +5,8 @@
 html {
     scroll-behavior: smooth;
 }
+
+
+.bg-gradient-top-scroll {
+    background-image: linear-gradient(to right, #4f86ab, #b681eb, #FF1493);
+}
