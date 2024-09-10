@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import ProjectCard from './ProjectCard';
 import { projectResourcesData } from "./projectData";
+import NEDUBD_Project from './NEDUBD_Project';
 
 
 const PortfolioLayout = () => {
@@ -59,6 +60,7 @@ const PortfolioLayout = () => {
                 </div>
             </div>
             <div className='space-y-16'>
+                <NEDUBD_Project />
                 {
                     filteredProjects?.map((project: any) => (
                         <ProjectCard

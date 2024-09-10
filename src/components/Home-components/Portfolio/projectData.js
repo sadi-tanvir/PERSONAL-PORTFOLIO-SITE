@@ -65,8 +65,9 @@ import { FaLaravel } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 
 export const projectResourcesData = [
+
     {
-        projectId: 1,
+        projectId: 3,
         projectCategory: 'ReactAndNext',
         isAuthenticate: true,
         projectName: "Modern Ecommerce",
@@ -126,7 +127,7 @@ export const projectResourcesData = [
     },
 
     {
-        projectId: 2,
+        projectId: 4,
         projectCategory: 'ReactAndNext',
         isAuthenticate: true,
         projectName: "E-Shop",
@@ -173,7 +174,7 @@ export const projectResourcesData = [
     },
 
     {
-        projectId: 3,
+        projectId: 5,
         projectCategory: 'ReactAndNext',
         isAuthenticate: true,
         projectName: "Store Management",
@@ -245,7 +246,7 @@ export const projectResourcesData = [
     },
 
     {
-        projectId: 4,
+        projectId: 6,
         projectCategory: 'ReactAndNext',
         isAuthenticate: true,
         projectName: "Poultry Farm Management",
@@ -291,8 +292,9 @@ export const projectResourcesData = [
         ],
         sliderImages: [P_4_1, P_4_2, P_4_3, P_4_4]
     },
+
     {
-        projectId: 5,
+        projectId: 7,
         projectCategory: 'laravel',
         isAuthenticate: false,
         projectName: "Laravel-Online-Shopping",
@@ -316,8 +318,9 @@ export const projectResourcesData = [
         ],
         sliderImages: [P_55_1, P_55_2, P_55_3, P_55_4]
     },
+
     {
-        projectId: 6,
+        projectId: 8,
         projectCategory: 'ReactAndNext',
         isAuthenticate: true,
         projectName: "Realtime Chat Application",
@@ -369,7 +372,7 @@ export const projectResourcesData = [
     },
 
     {
-        projectId: 7,
+        projectId: 9,
         projectCategory: 'javascript',
         isAuthenticate: false,
         projectName: "Voice Recognition and Language Translator",
@@ -394,7 +397,7 @@ export const projectResourcesData = [
         sliderImages: [P_6_1]
     },
     {
-        projectId: 8,
+        projectId: 10,
         projectCategory: 'ReactAndNext',
         isAuthenticate: false,
         projectName: "Draggable Image Gallery",
@@ -417,7 +420,7 @@ export const projectResourcesData = [
         ],
         backendTechnologies: [],
         sliderImages: [P_7_1]
-    },
+    }
 ];
 
 

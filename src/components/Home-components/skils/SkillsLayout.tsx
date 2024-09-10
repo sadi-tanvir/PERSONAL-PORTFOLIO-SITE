@@ -10,7 +10,7 @@ const SkillsLayout = () => {
                 <p className='text-gray-300 my-2 text-wrap px-2 sm:px-0'>I am comfortable with the following technologies and I always like to learn something new.</p>
             </div>
 
-            <div className='max-w-[600px] grid grid-cols-3 gap-3 sm:gap-5 md:gap-16 mt-10 mx-auto px-3'>
+            <div className='max-w-[1400px] grid grid-cols-3 md:grid-cols-7 gap-3 sm:gap-5 md:gap-16 mt-10 mx-auto px-3'>
                 {
                     technologies.map((tech) => (
                         <TechCard

@@ -11,6 +11,7 @@ import GraphQl from "@/../public/Technoloy/graphQL.png";
 import NodeJs from "@/../public/Technoloy/NodeJs.png";
 import ExpressJs from "@/../public/Technoloy/express.png";
 import MongoDB from "@/../public/Technoloy/mongodb.png";
+import Prisma from "@/../public/Technoloy/prisma.png";
 import Mongoose from "@/../public/Technoloy/mongoose.png";
 import MySQL from "@/../public/Technoloy/mysql.png";
 import Firebase from "@/../public/Technoloy/firebase.png";
@@ -97,11 +98,16 @@ export const technologies: TechnologyList[] = [
     },
     {
         id: 14,
+        url: Prisma,
+        name: 'Prisma',
+    },
+    {
+        id: 15,
         url: Mongoose,
         name: 'Mongoose',
     },
     {
-        id: 15,
+        id: 16,
         url: TailwindCss,
         name: 'Tailwind'
     },
