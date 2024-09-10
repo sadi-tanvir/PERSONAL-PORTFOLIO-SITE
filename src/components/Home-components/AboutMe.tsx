@@ -12,16 +12,20 @@ const AboutMe = () => {
                 <div className='flex flex-col sm:pt-3 pr-5'>
                     <h2 className='text-3xl font-bold text-[#2ed573] uppercase'>About Me</h2>
                     <p className="text-white text-justify tracking-wide mt-2">
-                        Hello there! I&rsquo;m passionate about crafting engaging web experiences and solving complex problems. With expertise in technologies like
+                        Hello there! I&rsquo;m a Full Stack Developer with over 2 years of experience in
+                        <span className='text-[#2ed573]'> SaaS</span>, development, passionate about crafting dynamic, user-focused web applications. Leveraging technologies like
                         <span className='text-[#2ed573]'> React.js</span>,
-                        <span className='text-[#2ed573]'> Next.js</span>, and
-                        <span className='text-[#2ed573]'> GraphQL</span>, I bring ideas to life with clean code and intuitive user interfaces. I also excel in
-                        <span className='text-[#2ed573]'> algorithmic problem-solving</span> on platforms like
-                        <span className='text-[#2ed573]'> LeetCode</span>. Experienced in building
+                        <span className='text-[#2ed573]'> Next.js</span>,
+                        <span className='text-[#2ed573]'> TypeScript</span>,
+                        <span className='text-[#2ed573]'> Laravel</span>, and
+                        <span className='text-[#2ed573]'> MySQL</span>, I bring ideas to life with clean, efficient code and intuitive interfaces.
+
+                        I excel in developing
                         <span className='text-[#2ed573]'> RESTful</span> and
-                        <span className='text-[#2ed573]'> GraphQL</span> APIs using technologies like
+                        <span className='text-[#2ed573]'> GraphQL APIs</span>  using
                         <span className='text-[#2ed573]'> Express.js</span> and
-                        <span className='text-[#2ed573]'> MongoDB</span>, let&rsquo;s collaborate and create something extraordinary together!
+                        <span className='text-[#2ed573]'> MongoDB</span>, ensuring scalable and high-performing solutions. Driven by a passion for solving complex problems on platforms like 
+                        <span className='text-orange-500'> LeetCode</span>, I strive to create innovative applications that enhance user experiences. Let&rsquo;s collaborate to build something extraordinary together!
                     </p>
 
                     <div className='flex justify-center md:justify-start space-x-4 mt-5'>

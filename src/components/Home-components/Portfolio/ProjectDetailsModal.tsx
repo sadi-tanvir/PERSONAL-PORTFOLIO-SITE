@@ -43,7 +43,7 @@ const ProjectDetailsModal = ({ isProjectDetailsModalOpen, setIsProjectDetailsMod
                                     <div key={index}>
                                         <li className='flex'>
                                             <p className='text-lg'>
-                                                {elem?.title && <span className='font-bold text-xl mr-2'>{elem?.title}</span>}
+                                                {elem?.title ? <span className='font-bold text-xl mr-2'>{elem?.title}</span> : <span className="w-2 h-2 mr-2 mb-px inline-block bg-gray-300 rounded-full"></span>}
                                                 {elem.description}
                                             </p>
                                         </li>
