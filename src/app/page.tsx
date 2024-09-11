@@ -1,7 +1,8 @@
 'use client'
 import Footer from "@/components/Footer/Footer";
-import AboutMe from "@/components/Home-components/AboutMe";
+import AboutMe from "@/components/Home-components/AboutMe/AboutMe";
 import Contact from "@/components/Home-components/Contact/Contact";
+import ExperienceLayout from "@/components/Home-components/Experience/ExperienceLayout";
 import IntroductionLayout from "@/components/Home-components/Introduction/IntroductionLayout";
 import PortfolioLayout from "@/components/Home-components/Portfolio/PortfolioLayout";
 import SkillsLayout from "@/components/Home-components/skils/SkillsLayout";
@@ -15,6 +16,7 @@ export default function Home() {
       <Progressbar target={mainRef}></Progressbar>
       <IntroductionLayout></IntroductionLayout>
       <AboutMe></AboutMe>
+      <ExperienceLayout></ExperienceLayout>
       <SkillsLayout></SkillsLayout>
       <PortfolioLayout></PortfolioLayout>
       <Contact></Contact>

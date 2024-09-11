@@ -41,6 +41,10 @@ const Navbar = () => {
                         <a href="#skills">Skills</a>
                     </li>
                     <li className='px-5 cursor-pointer  uppercase'>
+                        {/* <Link href="/skills">Skills</Link> */}
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <li className='px-5 cursor-pointer  uppercase'>
                         {/* <Link href="/portfolio">Portfolio</Link> */}
                         <a href="#portfolio">Portfolio</a>
                     </li>

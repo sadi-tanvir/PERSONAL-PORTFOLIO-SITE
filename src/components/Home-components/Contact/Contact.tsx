@@ -29,7 +29,7 @@ const ContactMe = () => {
                     </div>
 
                     {/* Right Column - Contact Form */}
-                    <div className="bg-gray-200 p-5 sm:p-8 rounded-2xl shadow-lg">
+                    <div className="bg-gray-300 p-5 sm:p-8 rounded-2xl shadow-lg">
                         <form>
                             <div className="mb-6">
                                 <label htmlFor="name" className="block text-sm font-semibold text-gray-800">Your Name</label>

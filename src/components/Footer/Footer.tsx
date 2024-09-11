@@ -35,12 +35,12 @@ const Footer = () => {
         <div className='w-full py-20 text-gray-300 bg-gray-800'>
             <div className='container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3'>
                 <div className="mx-auto mb-10 sm:mb-0 text-center sm:text-start">
-                    <h2 className='text-xl font-bold uppercase'>Tanvir Hossain Sadi</h2>
                     <Image
                         src={ME}
                         alt='sadi'
                         className='w-24 mx-auto sm:mx-0'
                     />
+                    <h2 className='text-xl font-bold uppercase mt-2'>Tanvir Hossain Sadi</h2>
                     <p className='mt-1 text-[#2ed573]'>Full Stack Developer</p>
                     <p className='mt-1 flex justify-center sm:justify-start items-center'>
                         <MdOutlineEmail className='mr-2 mb-[2px]' />
