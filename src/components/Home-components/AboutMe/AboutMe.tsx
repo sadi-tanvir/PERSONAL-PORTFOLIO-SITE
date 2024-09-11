@@ -61,7 +61,7 @@ const AboutMe = () => {
                         placeholder='blur'
                         width={300}
                         height={300}
-                        className='h-80 w-80 opacity-90'
+                        className='h-80 w-80 opacity-90 my-auto'
                         draggable={false}
                     />
                 </div>

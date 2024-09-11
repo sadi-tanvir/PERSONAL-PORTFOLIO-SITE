@@ -61,8 +61,14 @@ const PortfolioLayout = () => {
                 </div>
             </div>
             <div className='space-y-16'>
-                <NEDUBD_Project />
-                <BAMS_Project />
+                {
+                    (btnTrack.all || btnTrack.laravel || btnTrack.javascript) &&
+                    <NEDUBD_Project />
+                }
+                {
+                    (btnTrack.all || btnTrack.ReactAndNext) &&
+                    <BAMS_Project />
+                }
                 {
                     filteredProjects?.map((project: any) => (
                         <ProjectCard
