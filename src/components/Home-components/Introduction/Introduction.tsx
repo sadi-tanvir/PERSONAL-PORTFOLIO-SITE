@@ -17,7 +17,6 @@ const Introduction = () => {
                 </p>
                 <div className='mt-5 xl:mt-10 flip-scale-down-diag-2'>
                     <a
-                        target="_blank"
                         href="#"
                         className="bg-[#2ed573] inline-block py-2 sm:py-3 xl:py-4  px-6 sm:px-12 xl:px-14 rounded-md mt-5 cursor-pointer uppercase">
                         Get Resume

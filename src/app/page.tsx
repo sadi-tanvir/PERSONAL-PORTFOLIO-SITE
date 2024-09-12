@@ -5,6 +5,7 @@ import Contact from "@/components/Home-components/Contact/Contact";
 import ExperienceLayout from "@/components/Home-components/Experience/ExperienceLayout";
 import IntroductionLayout from "@/components/Home-components/Introduction/IntroductionLayout";
 import PortfolioLayout from "@/components/Home-components/Portfolio/PortfolioLayout";
+import ProblemSolvingPortfolioLayout from "@/components/Home-components/ProblemSolvingPortfolio/ProblemSolvingPortfolioLayout";
 import SkillsLayout from "@/components/Home-components/skils/SkillsLayout";
 import Progressbar from "@/components/Progressbar/Progressbar";
 import { useRef } from "react";
@@ -18,6 +19,7 @@ export default function Home() {
       <AboutMe></AboutMe>
       <ExperienceLayout></ExperienceLayout>
       <SkillsLayout></SkillsLayout>
+      <ProblemSolvingPortfolioLayout></ProblemSolvingPortfolioLayout>
       <PortfolioLayout></PortfolioLayout>
       <Contact></Contact>
       <Footer></Footer>
