@@ -18,7 +18,7 @@ const Introduction = () => {
                 <div className='mt-5 xl:mt-10 flip-scale-down-diag-2'>
                     <a
                         target="_blank"
-                        href="https://drive.google.com/file/d/1IbrPRTtASMHd6pWanC8-Sm2Vtk7go4gl/view?usp=drive_link"
+                        href="#"
                         className="bg-[#2ed573] inline-block py-2 sm:py-3 xl:py-4  px-6 sm:px-12 xl:px-14 rounded-md mt-5 cursor-pointer uppercase">
                         Get Resume
                     </a>
