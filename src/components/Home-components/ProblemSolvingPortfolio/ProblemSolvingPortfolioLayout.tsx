@@ -35,27 +35,23 @@ const ProblemSolvingPortfolioLayout = () => {
         },
     ]
 
-    const AllDisplayImages = [
+    const LeetCodeImages = [
         {
             url: process.env.SCORE_IMAGE,
-            classes: ''
+            classes: 'shadow-xl rounded-xl border'
         },
         {
             url: process.env.ACHIEVEMENTS,
-            classes: ''
+            classes: 'shadow-xl rounded-xl border'
         },
         {
             url: process.env.BADGE_2023,
-            classes: 'h-60 w-48'
+            classes: 'h-60 w-48 shadow-xl rounded-xl border'
         },
         {
             url: process.env.BADGE_2024,
-            classes: 'h-60 w-48'
-        },
-
-
-
-
+            classes: 'h-60 w-48 shadow-xl rounded-xl border'
+        }
     ]
 
     return (
@@ -80,7 +76,7 @@ const ProblemSolvingPortfolioLayout = () => {
                 {/* Technologies and Links */}
                 <div className='flex flex-col justify-center items-center mt-10'>
                     {/* Technologies */}
-                    <h1 className='text-xl text-gray-200 font-bold border-b'>Technologies</h1>
+                    <h1 className='text-xl text-gray-200 font-bold border-b'>Languages</h1>
                     <div className='flex my-5 space-x-2'>
                         {
                             technologies.map((tech, index) => (
@@ -142,7 +138,7 @@ const ProblemSolvingPortfolioLayout = () => {
                         <div className="w-full max-w-3xl mx-auto">
                             <div className="space-y-0 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
                                 {
-                                    AllDisplayImages.map((image, index) => (
+                                    LeetCodeImages.map((image, index) => (
                                         <div key={index} className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                                             <TimelineIcon></TimelineIcon>
                                             <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-2 rounded flex justify-center items-center">
@@ -153,7 +149,6 @@ const ProblemSolvingPortfolioLayout = () => {
                                 }
                             </div>
                         </div>
-
                     </div>
                 </div>
             </section>
