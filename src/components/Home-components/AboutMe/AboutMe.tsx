@@ -13,7 +13,8 @@ const AboutMe = () => {
                 <div className='flex flex-col sm:pt-3 pr-5 order-1 md:-order-none'>
                     <h2 className='text-3xl font-bold text-[#2ed573] uppercase text-center md:text-start'>About Me</h2>
                     <p className="text-white text-justify tracking-wide mt-2">
-                        Hello there! I&rsquo;m a Full Stack Developer with over 2 years of experience in
+                        Hello there! I&rsquo;m a Full Stack Developer with over 
+                        <span className='text-[#2ed573]'>2 years</span> of experience in
                         <span className='text-[#2ed573]'> SaaS</span>, development, passionate about crafting dynamic, user-focused web applications. Leveraging technologies like
                         <span className='text-[#2ed573]'> React.js</span>,
                         <span className='text-[#2ed573]'> Next.js</span>,
