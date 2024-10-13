@@ -18,6 +18,7 @@ import Firebase from "@/../public/Technoloy/firebase.png";
 import Docker from "@/../public/Technoloy/docker.png";
 import PHP from "@/../public/Technoloy/php.png";
 import Laravel from "@/../public/Technoloy/laravel.png";
+import Redis from "@/../public/Technoloy/redis.png";
 
 
 interface TechnologyList {
@@ -122,10 +123,13 @@ export const technologies: TechnologyList[] = [
         name: 'Firebase'
     },
     {
+        id: 20,
+        url: Redis,
+        name: 'Redis'
+    },
+    {
         id: 19,
         url: Docker,
         name: 'Docker'
     },
-
-
 ]
